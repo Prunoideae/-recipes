@@ -1,0 +1,5 @@
+new Schema('vintagedelight:fermenting')
+    .simpleKey('output', 'outputItem')
+    .simpleKey('ingredients', 'inputItemArray')
+    .simpleKey('processingTime', 'intNumber')
+    .simpleKey('secondaryOutput', 'outputItem', null)
