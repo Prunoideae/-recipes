@@ -11,6 +11,9 @@ It is a community driven repository, so feel free to contribute your own schemas
 3. Write your own schema file of the mod you want to support. (Recommended to write them in ProbeJS environment to get most of the types)
 4. Send a pull request with your schema file and a short description of what it does.
 
+![](asset/example.png)
+
+
 Note that all the PRs will be manually reviewed, so it might take a while for your schema to be merged.
 
 To make sure the scripts are safe, you should not:
