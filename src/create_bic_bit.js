@@ -1,0 +1,5 @@
+new Schema('create_bic_bit:deep_frying')
+    .simpleKey('results', 'outputFluidOrItemArray')
+    .simpleKey('ingredients', 'inputFluidOrItemArray')
+    .simpleKey('processingTime', 'doubleNumber')
+    .simpleKey('heatRequirement', 'string')
