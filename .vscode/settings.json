@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/data/*/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ]
+}

@@ -17,12 +17,6 @@
             "optional": 1000
         },
         {
-            "name": "harvest_item",
-            "role": "input",
-            "type": "ingredient",
-            "optional": null
-        },
-        {
             "name": "wooden_result",
             "role": "output",
             "type": "item_stack",
@@ -34,10 +28,21 @@
             "excluded": true
         },
         {
+            "name": "harvest_item",
+            "role": "input",
+            "type": "item_stack",
+            "optional": null,
+            "allow_empty": true,
+            "function_names": [
+                "harvest_item"
+            ],
+            "excluded": true
+        },
+        {
             "name": "collect_bucket",
             "role": "other",
             "type": "boolean",
-            "optional": true,
+            "optional": false,
             "function_names": [
                 "collect_bucket"
             ],
@@ -63,6 +68,16 @@
             "optional": "",
             "function_names": [
                 "fluid_color"
+            ],
+            "excluded": true
+        },
+        {
+            "name": "particle_color",
+            "role": "other",
+            "type": "string",
+            "optional": "",
+            "function_names": [
+                "particle_color"
             ],
             "excluded": true
         },
